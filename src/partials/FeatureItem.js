@@ -1,5 +1,6 @@
 import React from "react";
 import { Transition } from "react-transition-group";
+import useMobileDetect from "./../hooks/useMobileDetectHook";
 
 const FeatureItem = ({
   title,
@@ -10,9 +11,12 @@ const FeatureItem = ({
   link,
   reverse = false,
 }) => {
+  const detectMobile = useMobileDetect();
+  const isMobile = detectMobile.isMobile();
+
   const content = (
     <div
-      className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6"
+      className={`max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6`}
       data-aos="fade-right"
     >
       <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
@@ -80,15 +84,15 @@ const FeatureItem = ({
 
   return (
     <div className="md:grid md:grid-cols-12 md:gap-6 my-16">
-      {!reverse ? (
+      {isMobile || reverse ? (
         <>
-          {content}
           {screenShot}
+          {content}
         </>
       ) : (
         <>
-          {screenShot}
           {content}
+          {screenShot}
         </>
       )}
     </div>

@@ -38,7 +38,11 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <Link className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
+                <a
+                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                  href="https://www.github.com/uxie-io"
+                  target="blank"
+                >
                   <span>Github</span>
                   <svg
                     className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1"
@@ -50,7 +54,7 @@ function Header() {
                       fillRule="nonzero"
                     />
                   </svg>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
