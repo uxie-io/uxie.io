@@ -146,6 +146,7 @@
       data-dsads-action="close"
       data-dsads-close-container-id="ds-callout"
       class="bm-bt-close bm-shadow"
+      onclick="closePopup(event)"
       >X</a
     >
   
@@ -156,4 +157,11 @@
       <img class="callout" src="https://ds-blog-assets.s3.amazonaws.com/ds_callout1.png"/>
     </div>
   </body>
+  <script>
+        function closePopup(e) {
+      document.querySelector('#ds-callout').style.display = 'none'
+      e.stopPropagation()
+    }
+
+  </script>
 </html>
