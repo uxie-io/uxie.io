@@ -20,7 +20,7 @@ const FeatureItem = ({
       data-aos="fade-right"
     >
       <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-        <a href={link}>
+        <a href={link} target="_blank" rel="noreferrer">
           <h3 className="h3 mb-3">{title}</h3>
         </a>
         <p className="text-xl text-gray-600">{desc}</p>
@@ -69,13 +69,15 @@ const FeatureItem = ({
           leaveEnd="opacity-0 -translate-y-16"
         >
           <div className="relative inline-flex flex-col">
-            <img
-              className="md:max-w-none mx-auto rounded-lg"
-              src={require(`../images/${imagePath}`).default}
-              width="500"
-              height="462"
-              alt="Features bg"
-            />
+            <a href={link} target="_blank" rel="noreferrer">
+              <img
+                className="md:max-w-none mx-auto rounded-lg"
+                src={require(`../images/${imagePath}`).default}
+                width="500"
+                height="462"
+                alt="Features bg"
+              />
+            </a>
           </div>
         </Transition>
       </div>

@@ -40,6 +40,19 @@ function Features() {
             reverse={true}
             link="https://tinter.uxie.io"
           />
+
+          <hr />
+
+          <FeatureItem
+            title="Meshy"
+            desc="Meshy is design tool to generate beautiful & colorful mesh gradients. Generate multiple random variations of Mesh gradients along with cool color customizations."
+            imagePath="meshy.png"
+            featureTitle="Supports PNG"
+            featureDesc="Randomise and generate different Mesh Gradients."
+            reverse={true}
+            link="https://meshy.uxie.io"
+          />
+
           <FeatureItem
             title="SVG.Shapes"
             desc="A free, customizable & extensive collection of 100+ SVG shapes. Bring gradient magic into SVGs"
