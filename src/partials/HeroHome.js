@@ -98,7 +98,7 @@ function HeroHome() {
               <div className="flex flex-col justify-center">
                 <img
                   className="mx-auto rounded-md"
-                  src={require("../images/ss.jpg").default}
+                  src={require("../images/ss.jpg")}
                   width="768"
                   height="432"
                   alt="Hero"

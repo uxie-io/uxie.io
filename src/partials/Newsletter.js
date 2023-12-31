@@ -3,16 +3,16 @@ import React from "react";
 function Newsletter() {
   return (
     <section id="newsletter">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* CTA box */}
           <div
-            className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
+            className="relative px-8 py-10 overflow-hidden bg-gray-900 rounded shadow-2xl md:py-16 md:px-12"
             data-aos="zoom-y-out"
           >
             {/* Background illustration */}
             <div
-              className="absolute right-0 bottom-0 pointer-events-none hidden lg:block"
+              className="absolute bottom-0 right-0 hidden pointer-events-none lg:block"
               aria-hidden="true"
             >
               <svg width="428" height="328" xmlns="http://www.w3.org/2000/svg">
@@ -94,11 +94,11 @@ function Newsletter() {
               </svg>
             </div>
 
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
+            <div className="relative flex flex-col items-center justify-between lg:flex-row">
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Get Notified.</h3>
-                <p className="text-gray-300 text-md mb-6">
+                <h3 className="mb-2 text-white h3">Get Notified.</h3>
+                <p className="mb-6 text-gray-300 text-md">
                   Contact us to get more info. We're are looking for developers
                   who looking to contribute on fun projects.
                 </p>
@@ -107,8 +107,8 @@ function Newsletter() {
                 <form className="w-full lg:w-auto">
                   <div className="flex ">
                     <a
-                      className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
-                      href="#0"
+                      className="text-white bg-blue-600 shadow btn hover:bg-blue-700"
+                      href="mailto:uxie.design@gmail.com"
                     >
                       Mail Us
                     </a>

@@ -49,7 +49,6 @@ function Features() {
             imagePath="meshy.png"
             featureTitle="Supports PNG"
             featureDesc="Randomise and generate different Mesh Gradients."
-            reverse={true}
             link="https://meshy.uxie.io"
           />
 

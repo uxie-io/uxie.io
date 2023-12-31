@@ -72,7 +72,7 @@ const FeatureItem = ({
             <a href={link} target="_blank" rel="noreferrer">
               <img
                 className="md:max-w-none mx-auto rounded-lg"
-                src={require(`../images/${imagePath}`).default}
+                src={require(`../images/${imagePath}`)}
                 width="500"
                 height="462"
                 alt="Features bg"

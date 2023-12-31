@@ -6,10 +6,12 @@ import FeaturesHome from "../partials/Features";
 import FeaturesBlocks from "../partials/FeaturesBlocks";
 import Newsletter from "../partials/Newsletter";
 import Footer from "../partials/Footer";
+import "../webcomponent/banner";
 
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
+      <banner-nav></banner-nav>
       {/*  Site header */}
       <Header />
 
