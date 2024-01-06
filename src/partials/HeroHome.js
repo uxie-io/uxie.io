@@ -40,6 +40,14 @@ function HeroHome() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
+            <div className="mb-8 relative mx-auto inline-flex w-fit before:absolute before:inset-0">
+              <a
+                href="https://creatica.app"
+                className="group relative inline-flex  w-full items-center justify-center rounded-full border border-blue-800/30 px-4   py-1 text-sm font-medium text-zinc-800 transition duration-150 ease-in-out before:pointer-events-none before:absolute before:inset-0 before:rounded-full hover:text-black"
+              >
+                Launching Creatica 🚀. Unlimited SVG Backgrounds
+              </a>
+            </div>
             <h1
               className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 mr-2"
               data-aos="zoom-y-out"

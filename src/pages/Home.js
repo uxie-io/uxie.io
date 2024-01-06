@@ -11,7 +11,7 @@ import "../webcomponent/banner";
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-      <banner-nav></banner-nav>
+      {/* <banner-nav></banner-nav> */}
       {/*  Site header */}
       <Header />
 
