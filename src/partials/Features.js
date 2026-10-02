@@ -38,7 +38,7 @@ function Features() {
             featureTitle="Supports JPG, PNG, WEBP and many more."
             featureDesc="Work with fine tuning of your images without concerning about privacy."
             reverse={true}
-            link="https://tinter.uxie.io"
+            link="https://tinter.vercel.app"
           />
 
           <hr />
@@ -49,7 +49,7 @@ function Features() {
             imagePath="meshy.png"
             featureTitle="Supports PNG"
             featureDesc="Randomise and generate different Mesh Gradients."
-            link="https://meshy.uxie.io"
+            link="https://meshgradient.in"
           />
 
           <FeatureItem

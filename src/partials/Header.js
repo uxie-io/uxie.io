@@ -30,7 +30,7 @@ function Header() {
             {/* Logo */}
             <Link to="/" className="flex items-end " aria-label="Cruip">
               <img src={logo2} alt="" className="mr-3 mb-1" width="50px" />
-              <span className="text-3xl font-bold"> Uxie.io</span>
+              <span className="text-3xl font-bold"> Uxie</span>
             </Link>
           </div>
 
