@@ -59,7 +59,7 @@ function Features() {
             featureTitle="No attribution required."
             featureDesc="100+ awesome svg shapes with lots of color customizations."
             reverse={true}
-            link="https://svgshapes.in"
+            link="https://svg-shapes.vercel.app"
           />
         </div>
       </div>
